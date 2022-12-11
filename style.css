@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#apresentacao-dio {
+    background: 
+    url(/assets/banner.png),
+    linear-gradient(180deg, #020404 0%, #091B24 50%, #040708 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60.5rem;
+}
+
+.apresentacao-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 51rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.apresentacao-infos img {
+    width: 24.8rem;
+    height: 21.4rem;
+    margin: 8.3rem 0 4.3rem;
+}
+
+.apresentacao-infos div {
+    position: absolute;
+    width: 27.5rem;
+    height: 27.5rem;
+    opacity: .4;
+    background: rgba(0, 0, 0, .5);
+    z-index: 11;
+    border-radius: 50%;
+    top: 5.6rem;
+}
+
+.apresentacao-infos h1 {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 4.7rem;
+    font-weight: 900;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 1.6rem;
+}
+
+.apresentacao-infos p {
+    font-size: 2rem;
+    color: #FFFFFF;
+    line-height: 2.3rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+.apresentacao-infos button {
+    width: 32.6rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 0.21rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    padding: 1.9rem;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-top: 2px solid #33A8DB;
+    border-left: 2px solid #1472B7;
+    border-right: 2px solid #1472B7;
+    border-bottom: 2px solid #1472B7;
+    margin-bottom: 7.5rem;
+}
+
+#list-modulos {
+    height: 60.5rem;
+    background: rgba(0, 0, 0);
+    border-top: .1rem solid #33A8DB;
+    border-bottom: .1rem solid #33A8DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#list-modulos h2 {
+    margin: 11.8rem 0 2.4rem;
+    font-size: 3.2rem;
+    color: #33A8DB;
+    text-align: center;
+}
+
+#list-modulos p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+#list-modulos .list-text {
+    width: 79.2rem;
+}
+
+#list-modulos ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    padding: 1.6rem 12.7rem;
+    background: #252525;
+    border-radius: 5.7rem;
+    border: .1rem solid #33A8D8;
+}
+
+#list-modulos ul li span {
+    color: #33A8D8;
+}
+
+#img-background {
+    height: 36.3rem;
+    background-image: url(/assets/woman-code.png);
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    background-position: 25%;
+    border-bottom: #33A8D8 .1rem solid;
+}
+
+#img-background h3 {
+    position: absolute;
+    color: white;
+    font-size: 3.2rem;
+    line-height: 4.7rem;
+    text-shadow: .3rem .2rem 0 #33A8D8;
+    width: 24.4rem;
+    height: 14.1rem;
+    top: 35%;
+    left: 19.8rem;
+}
+
+#challenger {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#challenger h3 {
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.357rem;
+    line-height: 3.8rem;
+    padding: 4.8rem 0 3.2rem;
+    width: 74.6rem;
+}
+
+#challenger p {
+    padding: 4rem 0 9.1rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 79.2rem;
+}
+
+footer {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.878rem;
+    background: black;
+    color: #FFFFFF;
+    text-align: center;
+    border-top: .1rem solid #33A8D8
+}
+
+footer img {
+    margin-top: 5.9rem;
+}
+
+footer p {
+    padding: 1rem 0 3.8rem;
+}
+
+footer a {
+    color: #33A8D8;
+    text-decoration: none;
+}
